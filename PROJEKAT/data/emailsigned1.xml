@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><email><subject>Informaciona bezbednost test</subject><body>Test enkripcije i potpisivanja XML fajla</body><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>8prKFPf3dZIo0mdsf/qKbyq84JU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+L+yFSTeTiZt0NmyvNbnkkO1M1xgCZqb1b+78In6aqeoPNfGRFzQIDEqczXYbnjD2PWCjgVvs7g//
+NnLGlJrVc/IerSDY729ITVPUodUxBNkdfF/MRQq+98/DU8Oox4NXsQCBGrF6m9KGregxInZ+Quna
+w7lnlUNZera3OjzUNg68X4aBGf9J4zYLEUKNIqJa39BIKCRO+R6ddtIkHofNArxr86U3XSWf0C3r
+HXaqmsduJI+6HEdf0hWXOLcgxv0pnO9XThMKKUSRxicnXAQ5TY/AywYx33YTxaQ+KrMPE5VtfXef
+bORlWS/fqCM34R5nNEar8SBQJjDdaZxNQnBqCQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+iPInBYPotvAtpvrudHk2KmgzCIJiHNDkATGHKhwBFl3qkHfV61x4K9raYUeJbg9+bK9p2HgsgKx3
+CjqvjxgaOU5bNh5m/Pgxy7DgFfQcowXjFewEiYGtM82ILn/0bsk0WB7wKVQHSUffJYOwqwj+ybJS
+7vXEhZ8JfHCiBZT+BOteCKvWDvjXQ/mRhq7ufybY8UPXEVN392lYBbm9ORKXy9++evR6tc76d6HH
+FBIV7HmUFPs0gu241RvBdsQEn1yUVjAlse5UeltQUsWEPetGMTmev3wBIE4IBzgl0QsUZp23AJbi
+9RvbzLrpLu4b5Vlipm5UPM6WzowsSRm/CjrRVQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIICsTCCAZkCBF7NRm8wDQYJKoZIhvcNAQEFBQAwHTELMAkGA1UEBhMCVVMxDjAMBgNVBAMMBWR1
+c2FuMB4XDTIwMDUyNjE2NDAxNVoXDTIxMDUyNjE2NDAxNVowHTELMAkGA1UEBhMCVVMxDjAMBgNV
+BAMMBWR1c2FuMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiPInBYPotvAtpvrudHk2
+KmgzCIJiHNDkATGHKhwBFl3qkHfV61x4K9raYUeJbg9+bK9p2HgsgKx3CjqvjxgaOU5bNh5m/Pgx
+y7DgFfQcowXjFewEiYGtM82ILn/0bsk0WB7wKVQHSUffJYOwqwj+ybJS7vXEhZ8JfHCiBZT+BOte
+CKvWDvjXQ/mRhq7ufybY8UPXEVN392lYBbm9ORKXy9++evR6tc76d6HHFBIV7HmUFPs0gu241RvB
+dsQEn1yUVjAlse5UeltQUsWEPetGMTmev3wBIE4IBzgl0QsUZp23AJbi9RvbzLrpLu4b5Vlipm5U
+PM6WzowsSRm/CjrRVQIDAQABMA0GCSqGSIb3DQEBBQUAA4IBAQBW7kY+DwHXuLntgsBwBLvxIPlW
+8HQlRhptDYNKlNVp2MWLydryaMOM7xts5FSs3HAJG3lxp9dHQPoDcUjWg/2eb+jsyKSLUA8qJ3M1
+Fk25BGaYImakJe099ZzOAmXQ5vdSNezgSPTHcBAYLZRgDcaUjXnXdvrJC/G9vXKDzuCbsIflG2yA
+D/4SJeJgZpYcghSHk/jVnwAdsaJrnpQJ4axuaghLoGUc9u5D0mb/FVRbomexjft2zz6zEJrvNY3f
+9eMirxPJFu7yglpsEiHiSGqcryPokuf8jQng6OhI7vTVS2RZN9v9cB7v3gY/REb9No24kfX8edKQ
++yizkQ1snR++
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></email>
